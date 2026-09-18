@@ -1,0 +1,5 @@
+# Keep the HTML page crawlable so its noindex directive can be read.
+# Restrict only this project; other Pages projects are unaffected.
+User-agent: *
+Disallow: /zhongyi-live/*.m3u
+Disallow: /zhongyi-live/*.json
